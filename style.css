@@ -21,6 +21,8 @@ body {
  width: 100%;
 }
 
+
+
 .logo {
   font-size: 1.5rem;
   font-weight: bold;
@@ -42,10 +44,19 @@ body {
 
 .hero-content {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  text-align: center;
+  justify-content: space-between;
+}
+
+ .hero-content img
+ {   width: 400px;
+     height: auto;
+     margin-top: 1rem;
+     flex-shrink: 0;
+ } 
+
+.hero-text {
+  max-width: 600px;
   flex-grow: 1;
 }
 
